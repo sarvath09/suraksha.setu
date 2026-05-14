@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A0000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center">
+
+        <!-- App Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🛡️ SURAKSHA-SETU"
+            android:textSize="26sp"
+            android:textColor="#FF4444"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Safety Network"
+            android:textSize="14sp"
+            android:textColor="#FFAAAA"
+            android:layout_marginBottom="30dp"/>
+
+        <!-- BIG SOS BUTTON -->
+        <Button
+            android:id="@+id/btnSOS"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:text="SOS\nHELP ME!"
+            android:textSize="28sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:backgroundTint="#CC0000"
+            android:layout_marginBottom="30dp"/>
+
+        <!-- Status Text -->
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status: Ready ✅"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- GPS Coordinates -->
+        <TextView
+            android:id="@+id/tvLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📍 Location: Fetching..."
+            android:textColor="#FFDD99"
+            android:textSize="13sp"
+            android:padding="12dp"
+            android:background="#33FFFFFF"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Add Contact -->
+        <EditText
+            android:id="@+id/etContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter trusted contact number"
+            android:inputType="phone"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#AAAAAA"
+            android:background="#33FFFFFF"
+            android:padding="12dp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnAddContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="➕ Add to Safe-Circle"
+            android:backgroundTint="#004400"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Contact List Display -->
+        <TextView
+            android:id="@+id/tvContacts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Safe-Circle: (empty)"
+            android:textColor="#AAFFAA"
+            android:textSize="13sp"
+            android:padding="10dp"
+            android:background="#22FFFFFF"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Volunteer Mode Toggle -->
+        <Button
+            android:id="@+id/btnVolunteer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🤝 Register as Verified Volunteer"
+            android:backgroundTint="#003366"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="30dp"/>
+
+    </LinearLayout>
+</ScrollView>

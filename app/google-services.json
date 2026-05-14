@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "335269494401",
+    "project_id": "suraksha-setu-50127",
+    "storage_bucket": "suraksha-setu-50127.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335269494401:android:4535dd88d8128891bcd780",
+        "android_client_info": {
+          "package_name": "com.suraksha.setu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIO4FpGPUyTaRWUFMLYQfvXVxr-owjD_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
