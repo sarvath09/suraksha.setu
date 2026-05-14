@@ -268,18 +268,3 @@ Developed as a Women Safety & Emergency Assistance Android Application using Kot
 
 This project is developed for educational and safety purposes.
 Free to use and modify for learning.
-
-
----
-
-❤️ Acknowledgement
-
-Special thanks to:
-
-Android SDK
-
-Firebase
-
-Kotlin Community
-
-Open-source contributors
